@@ -6,11 +6,11 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 10:33:38 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/20 11:45:01 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/03 15:12:19 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

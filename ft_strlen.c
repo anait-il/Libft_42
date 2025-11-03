@@ -6,7 +6,7 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 11:11:57 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/23 22:34:46 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/03 21:22:13 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,10 @@
 
 size_t	ft_strlen(const char *str)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	while (str[i] != '\0')
 		i++;
 	return (i);
 }
-

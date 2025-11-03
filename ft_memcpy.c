@@ -6,12 +6,11 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 10:27:30 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/29 10:56:22 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/03 15:18:02 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
@@ -30,14 +29,4 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 		i++;
 	}
 	return (dest);
-}
-
-int main()
-{
-	char s[5] = "hello";
-	printf("std--> %s\n", memcpy(NULL, NULL, 2));
-	printf("std--> %s\n", ft_memcpy(NULL, NULL, 2));
-	int a = 900;
-
-	
 }

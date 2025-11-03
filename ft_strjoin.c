@@ -6,13 +6,13 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 11:59:58 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/24 17:59:21 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/03 21:17:39 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*chkon_null(const char *s1, const char *s2)
+static char	*chkon_null(const char *s1, const char *s2)
 {
 	if (!s1)
 		return (ft_strdup(s2));

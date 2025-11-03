@@ -6,7 +6,7 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 21:45:44 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/25 15:22:55 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/03 21:17:06 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,11 +34,3 @@ char	*ft_strdup(const char *s1)
 	s2[i] = '\0';
 	return (s2);
 }
-/*int main()
-{
-	const char *s = NULL;
-	char *p = ft_strdup(s);
-	if (!p)
-		printf("NULL");
-	printf("%s", p);
-}*/

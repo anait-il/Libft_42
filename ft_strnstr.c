@@ -6,12 +6,11 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 12:22:14 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/29 11:28:59 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/03 21:37:31 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdio.h>
+#include "libft.h"
 
 char	*ft_strnstr(const char *src, const char *dst, size_t len)
 {
@@ -35,10 +34,4 @@ char	*ft_strnstr(const char *src, const char *dst, size_t len)
 		i++;
 	}
 	return (NULL);
-}
-int main ()
-{
-	printf("%s\n", strnstr(NULL, "hhh", 0));
-	printf("%s\n", ft_strnstr(NULL, "hhh", 0));
-	return 0;
 }

@@ -6,11 +6,11 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 09:22:57 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/28 21:17:25 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/03 15:17:56 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t len)
 {
@@ -33,12 +33,4 @@ void	*ft_memmove(void *dest, const void *src, size_t len)
 		}
 	}
 	return (dest);
-}
-
-#include <string.h>
-#include <stdio.h>
-
-int main()
-{
-	memmove(NULL, "hhhh", 2);
 }

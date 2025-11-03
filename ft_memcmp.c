@@ -6,12 +6,11 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 11:45:39 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/20 12:21:45 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/03 15:18:13 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

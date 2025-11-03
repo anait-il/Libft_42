@@ -6,21 +6,11 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/19 09:51:09 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/29 10:33:32 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/02 22:13:17 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-size_t	ft_strlen(const char *c)
-{
-	size_t	i;
-
-	i = 0;
-	while (c[i])
-		i++;
-	return (i);
-}
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
@@ -45,15 +35,4 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	}
 	dst[j] = '\0';
 	return (ld + ls);
-}
-
-#include <string.h>
-#include <stdio.h>
-
-int main()
-{
-	char *a = NULL;
-	char *b = NULL;
-	printf("my ft --size = %zu\n",ft_strlcat(NULL, "hhhh", 1));
-	printf("std -- size = %zu\n",strlcat(NULL, "HHHH", 1));
 }

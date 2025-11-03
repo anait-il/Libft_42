@@ -6,11 +6,11 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 18:31:35 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/19 16:13:30 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/03 17:51:40 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t len)
 {

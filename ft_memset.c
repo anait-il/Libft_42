@@ -6,11 +6,11 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 12:21:20 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/28 15:11:37 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/03 15:18:43 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 void	*ft_memset(void *str, int c, size_t len)
 {

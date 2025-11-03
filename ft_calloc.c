@@ -6,7 +6,7 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 11:09:38 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/23 22:49:31 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/02 21:54:36 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,3 @@ void	*ft_calloc(size_t nitems, size_t size)
 	}
 	return ((void *)ptr);
 }
-
-
-

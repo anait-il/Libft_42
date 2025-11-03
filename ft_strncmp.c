@@ -6,12 +6,11 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/19 21:20:55 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/25 21:17:05 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/03 21:25:14 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
 
 int	ft_strncmp(char const *s1, const char *s2, size_t n)
 {

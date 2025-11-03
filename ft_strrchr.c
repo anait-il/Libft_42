@@ -6,11 +6,11 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/19 21:00:26 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/19 21:16:25 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/03 21:38:37 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 char	*ft_strrchr(const char *str, int c)
 {

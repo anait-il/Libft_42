@@ -6,11 +6,11 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 19:51:58 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/19 16:14:11 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/03 11:37:09 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {

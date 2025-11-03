@@ -6,13 +6,13 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 15:35:30 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/22 17:48:30 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/03 10:15:25 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <limits.h>
+#include "libft.h"
 
-int	is_overflow(int sign)
+static int	is_overflow(int sign)
 {
 	if (sign > 0)
 		return (-1);
