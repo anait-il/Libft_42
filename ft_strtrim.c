@@ -6,7 +6,7 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 17:58:14 by anait-il          #+#    #+#             */
-/*   Updated: 2025/10/25 16:04:55 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/06 15:25:42 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,10 @@ static size_t	check_first(const char *s1, const char *set)
 	while (s1[first] && set[i])
 	{
 		if (s1[first] == set[i])
+		{
 			first++;
+			i = 0;
+		}
 		else
 			i++;
 	}

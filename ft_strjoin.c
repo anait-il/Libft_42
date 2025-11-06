@@ -6,7 +6,7 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 11:59:58 by anait-il          #+#    #+#             */
-/*   Updated: 2025/11/05 18:38:28 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/05 21:35:40 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,10 +47,4 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	p[i] = '\0';
 	ft_strlcat(p, s2, dstsize + 1);
 	return (p);
-}
-#include <stdio.h>
-int main()
-{
-	char *s = ft_strjoin(NULL, NULL);
-	printf("%s", s);
 }

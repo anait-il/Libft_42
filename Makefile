@@ -1,6 +1,6 @@
 CC = cc
 
-CFLAGS = -Wall -Wextra -Werror -fsanitize=address -g3
+CFLAGS = -Wall -Wextra -Werror
 
 NAME = libft.a
 
@@ -13,10 +13,9 @@ BONUS = ft_lstadd_back_bonus.c ft_lstdelone_bonus.c ft_lstmap_bonus.c ft_lstadd_
 B_OBJ = $(BONUS:%.c=%.o)
 
 all: $(NAME)
-	$(CC) $(CFLAGS) libft.a && ./a.out
+
 $(NAME): $(OBJ)
 	ar rc $(NAME) $(OBJ)
-
 
 bonus: $(B_OBJ) 
 	ar rc $(NAME) $(B_OBJ)

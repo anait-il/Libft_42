@@ -6,7 +6,7 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/25 17:47:11 by anait-il          #+#    #+#             */
-/*   Updated: 2025/11/03 21:14:35 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/06 16:14:06 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ static int	guaranted_malloc(char **p, size_t len, size_t position)
 	return (0);
 }
 
-static size_t	fil_string(char **p, const char *s, char c)
+static int	fil_string(char **p, const char *s, char c)
 {
 	size_t	position;
 	size_t	start;
