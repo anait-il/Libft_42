@@ -67,7 +67,7 @@ static int	fil_string(char **p, const char *s, char c)
 			return (1);
 		ft_strlcpy(p[position], s - start, start + 1);
 		position++;
-		while (*s == c)
+		while (*s == c && *s)
 			s++;
 	}
 	return (0);
