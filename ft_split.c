@@ -6,13 +6,13 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/25 17:47:11 by anait-il          #+#    #+#             */
-/*   Updated: 2025/11/06 16:14:06 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/07 21:04:01 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static size_t	countwords(char const *s, char c)
+static int	countwords(char const *s, char c)
 {
 	int	i;
 	int	word;
@@ -67,7 +67,7 @@ static int	fil_string(char **p, const char *s, char c)
 			return (1);
 		ft_strlcpy(p[position], s - start, start + 1);
 		position++;
-		while (*s == c)
+		while (*s == c && *s)
 			s++;
 	}
 	return (0);
@@ -75,7 +75,7 @@ static int	fil_string(char **p, const char *s, char c)
 
 char	**ft_split(char const *s, char c)
 {
-	size_t	words;
+	int		words;
 	char	**p;
 
 	if (s == NULL)

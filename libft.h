@@ -6,7 +6,7 @@
 /*   By: anait-il <anait-il@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/02 22:17:05 by anait-il          #+#    #+#             */
-/*   Updated: 2025/11/03 10:12:16 by anait-il         ###   ########.fr       */
+/*   Updated: 2025/11/07 21:01:09 by anait-il         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ typedef struct s_list
 
 int		ft_atoi(const char *str);
 void	ft_bzero(void *s, size_t n);
-void	*ft_calloc(size_t nitems, size_t size);
+void	*ft_calloc(size_t count, size_t size);
 int		ft_isalnum(int c);
 int		ft_isalpha(int c);
 int		ft_isascii(int c);
